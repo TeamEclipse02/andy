@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Playwrite+US+Trad&family=Jomhuria&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #2172BE;
+  text-align: center;
+  padding: 30px 0 25px 0;
+}
+
+.titulo-barra {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+.subtitulo-barra {
+  color: white;
+  font-family: "Playwrite US Trad", cursive;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+
+
+.login-container {
+  text-align: center;
+}
+
+.titulo {
+  color: #1F91DC;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.etiqueta {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  color: #1F91DC;
+  font-family: "Jomhuria", serif;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.campo {
+  width: 70%;
+  padding: 20px;
+  border: none;
+  border-radius: 70px;
+  background-color:#DAF8FF ;
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+
+  font-family: "Jomhuria", serif;
+  font-size: 40px;
+}
+
+.campo::placeholder {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 18px;
+  color: #B6B6B6;
+  font-weight: 400;
+}
+
+.olvido {
+  width: 70%;
+  margin: auto;
+  text-align: right;
+  color: #1F91DC;
+  font-family: "Jomhuria", serif;
+  font-size: 40px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.boton {
+  width: 260px;
+  padding: 15px;
+  border: none;
+  border-radius: 70px;
+  background-color: #DAF8FF;
+  color: #1F91DC;
+  font-family: "Jomhuria", serif;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.registro {
+  margin-top: 25px;
+  color: #1F91DC;
+  font-family: "Jomhuria", serif;
+  font-size: 40px;
+}
+
+.link-verde {
+  color: green;
+  text-decoration: none;
+  font-family: "Jomhuria", serif;
+  font-size: 40px;
+}
+
+.titulo-barra-registro {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+}
+
+.etiqueta-centro {
+  color: #1F91DC;
+  font-family: "Jomhuria", serif;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.campo-registro {
+  width: 38%;
+  padding: 18px;
+  border: none;
+  border-radius: 70px;
+  background-color: #DAF8FF;
+  font-family: "Jomhuria", serif;
+  font-size: 38px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.campo-registro::placeholder {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 18px;
+  color: #B6B6B6;
+  font-weight: 400;
+}
